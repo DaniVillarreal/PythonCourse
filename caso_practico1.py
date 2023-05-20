@@ -1,4 +1,4 @@
-"""Cabecera de la aplicación"""
+"""App header"""
 
 def cabecera():
     a = """
@@ -16,13 +16,13 @@ def cabecera():
 
 
 def hash_calc():
-    #Impirmo por pantalla la cabecera de la apicación
+    #I print the header of  the app on the screen
     cabecera()
-    #Solicito al usiario el mensaje
+    #I ask the user for a message
     mensaje = input("Introduce un mensaje: ")
-    #Obtengo el hash del mensaje
+    #I get the hash of the message
     hash_value = hash(mensaje)
-    #Saco por pantalla el hash
+    #I print the hash on the screen
     print(f"\nEl hash del mensaje es: {hash_value}")
 
 def run():
